@@ -483,3 +483,11 @@ p {
   border-radius: 8px;
   cursor: pointer;
 }
+
+body {
+  background-image: url("../public/bg-square-right.svg"),
+    url("../public/bg-square-left.svg");
+  background-size: 255px 240px;
+  background-position: 110% 196px, -10% 950px;
+  background-repeat: no-repeat;
+}

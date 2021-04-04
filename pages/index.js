@@ -5,9 +5,10 @@ import Image from "next/image";
 export default function Home() {
   return (
     <Box width="1110px" mx="auto" mt="55px">
+      <div className="bg-square"></div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Typemaster - Home</title>
+        <link rel="icon" href="/logo.svg" />
       </Head>
 
       <header>
