@@ -403,3 +403,71 @@ body {
 
   color: #7b8bad;
 }
+
+.btn-primary {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #f16718;
+  margin: 16px, 26px;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #ff9b62;
+  margin: 16px, 26px;
+  border-radius: 8px;
+}
+
+.btn-secondary {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #162542;
+  background-color: #e8eff2;
+  margin: 16px, 26px;
+  border-radius: 8px;
+}
+
+.btn-secondary {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #162542;
+  margin: 16px, 26px;
+  border-radius: 8px;
+}
