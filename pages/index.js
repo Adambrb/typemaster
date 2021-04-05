@@ -1,10 +1,10 @@
 import Head from "next/head";
-import { Box, Flex } from "rebass";
+import { Box, Flex } from "reflexbox/styled-components";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <Box width="1110px" mx="auto" mt="55px">
+    <Box width={[9 / 10, 9 / 10, 4 / 5]} mx="auto" mt="55px">
       <div className="bg-square"></div>
       <Head>
         <title>Typemaster - Home</title>
