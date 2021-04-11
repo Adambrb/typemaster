@@ -3,7 +3,7 @@ import { ThemeProvider } from "styled-components";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider theme={{ breakpoints: ["375px", "768px", "1440px"] }}>
+    <ThemeProvider theme={{ breakpoints: ["376px", "769px", "1441px"] }}>
       <Component {...pageProps} />
     </ThemeProvider>
   );

@@ -358,12 +358,23 @@ a {
 /* Global style
    ========================================================================== */
 
+body {
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #7b8bad;
+}
+
 h1 {
   font-family: "Barlow", sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 56px;
-  line-height: 56px;
+  font-size: 48px;
+  line-height: 48px;
   /* or 100% */
 
   text-transform: uppercase;
@@ -397,15 +408,12 @@ h3 {
   color: #162542;
 }
 
-body {
-  font-family: "Barlow", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* or 162% */
-
-  color: #7b8bad;
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 56px;
+  }
 }
 
 p {
@@ -425,9 +433,14 @@ p {
 
   color: #ffffff;
   background-color: #f16718;
-  padding: 16px 26px;
+  padding: 11px 14px;
   border-radius: 8px;
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .btn-primary {
+    padding: 16px 26px;
+  }
 }
 
 .btn-primary:hover {
@@ -484,10 +497,45 @@ p {
   cursor: pointer;
 }
 
-body {
-  background-image: url("../public/bg-square-right.svg"),
-    url("../public/bg-square-left.svg");
-  background-size: 255px 240px;
-  background-position: 110% 196px, -10% 950px;
-  background-repeat: no-repeat;
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url("../public/bg-square-right.svg"),
+      url("../public/bg-square-left.svg");
+    background-size: 255px 240px;
+    background-position: 110% 196px, -10% 950px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .image1 {
+    position: absolute;
+    background-image: url("../public/keyboard-1.png");
+    /* top: ; */
+    left: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .image1 {
+    /* top: ; */
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    background-image: url("../public/keyboard-1.png"),
+      url("../public/keyboard-2.png");
+    background-size: 372px 331px, 129px 237px;
+    background-position: 24px 485px, -20px 873px;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  body {
+    background-image: url("../public/keyboard-1.png");
+    background-size: 478px 425px;
+    background-position: 447px 160px;
+    background-repeat: no-repeat;
+  }
 }
